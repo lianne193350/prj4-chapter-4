@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0; border: 0; font-size: 100%}
+
+body {
+	background-image: url("../images/wallpaper-patter.jpg");
+}
+
+.mybutton {
+    background-color: antiquewhite;
+    width: 100px;
+    height: 58px;
+    border-radius: 13px;
+	font-size: 20pt;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+} 
+
+.gotitfont {
+		text-decoration: none;
+		color: darkgreen;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+}
+
+.mybutton:hover {
+	background: #3252EC
+}
+
+.myfont {
+	font-family: 'Dancing Script', cursive; 
+}
+
+.myheader {
+	background-color:antiquewhite;
+	background-image:url("../images/city.png");
+	width: 900px; 
+	height: 264px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	padding-bottom: 20px;
+}
+
+.mycontent {
+	background-color:antiquewhite;
+	width: 876px; 
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.boy1 {
+	float: left;
+	padding-right: 12px; 
+}
+
+footer {
+	width: auto;
+	height: auto;
+	background: #FAEBD7;
+}
